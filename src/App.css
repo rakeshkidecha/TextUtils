@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+img{
+  width: 100px;
+  height: 100px;
+}
+.alerts{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@keyframes slideDown {
+  0%{
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes sildeUp {
+  0%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+#purple{
+  background-color: purple;
+}
